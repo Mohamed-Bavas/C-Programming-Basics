@@ -190,7 +190,6 @@ Aspiring **Embedded Firmware Engineer**
 
 ### Current Focus
 
-```text
 C Programming
       ↓
 Embedded C
@@ -200,9 +199,6 @@ Microcontrollers
 Communication Protocols
       ↓
 Firmware Development
-```
-
-```
 
 ### 📌 For your current GitHub
 
@@ -213,4 +209,3 @@ Your current progress is:
 **Day/Topic 01 → C Basics → ✅ Completed**
 
 Next, we can do **02_Operators** with **6 programs + simple explanations + expected output**, then you can push that to GitHub.
-```
