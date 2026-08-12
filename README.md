@@ -8,35 +8,35 @@ This repository documents my learning journey in the **C programming language**,
 
 ## 🎯 Objectives
 
-- Build a strong foundation in C programming
-- Improve logical and problem-solving skills
-- Understand variables, data types, and operators
-- Learn control statements and loops
-- Understand functions, arrays, strings, and pointers
-- Learn memory management
-- Practice structures and unions
-- Master bit manipulation
-- Prepare for Embedded C and Firmware Development
+* Build a strong foundation in C programming
+* Improve logical and problem-solving skills
+* Understand variables, data types, and operators
+* Learn control statements and loops
+* Understand functions, arrays, strings, and pointers
+* Learn memory management
+* Practice structures and unions
+* Master bit manipulation
+* Prepare for Embedded C and Firmware Development
 
 ---
 
 ## 📚 Learning Progress
 
-| No. | Topic | Status |
-|---|---|---|
-| 01 | C Basics | ✅ Completed |
-| 02 | Operators | ⬜ Not Started |
-| 03 | Conditional Statements | ⬜ Not Started |
-| 04 | Loops | ⬜ Not Started |
-| 05 | Functions | ⬜ Not Started |
-| 06 | Arrays | ⬜ Not Started |
-| 07 | Strings | ⬜ Not Started |
-| 08 | Pointers | ⬜ Not Started |
-| 09 | Structures & Unions | ⬜ Not Started |
-| 10 | Dynamic Memory Allocation | ⬜ Not Started |
-| 11 | File Handling | ⬜ Not Started |
-| 12 | Bit Manipulation | ⬜ Not Started |
-| 13 | Practice Programs | ⬜ Not Started |
+| No. | Topic                     | Status        |
+| --- | ------------------------- | ------------- |
+| 01  | C Basics                  | ✅ Completed   |
+| 02  | Operators                 | ✅ Completed   |
+| 03  | Conditional Statements    | ⬜ Not Started |
+| 04  | Loops                     | ⬜ Not Started |
+| 05  | Functions                 | ⬜ Not Started |
+| 06  | Arrays                    | ⬜ Not Started |
+| 07  | Strings                   | ⬜ Not Started |
+| 08  | Pointers                  | ⬜ Not Started |
+| 09  | Structures & Unions       | ⬜ Not Started |
+| 10  | Dynamic Memory Allocation | ⬜ Not Started |
+| 11  | File Handling             | ⬜ Not Started |
+| 12  | Bit Manipulation          | ⬜ Not Started |
+| 13  | Practice Programs         | ⬜ Not Started |
 
 ---
 
@@ -56,6 +56,12 @@ C-Programming-Basics/
 │   └── type_casting.c
 │
 ├── 02_Operators/
+│   ├── arithmetic_operators.c
+│   ├── relational_operators.c
+│   ├── logical_operators.c
+│   ├── bitwise_operators.c
+│   ├── assignment_operators.c
+│   └── increment_decrement.c
 │
 ├── 03_Conditional_Statements/
 │
@@ -78,7 +84,7 @@ C-Programming-Basics/
 ├── 12_Bit_Manipulation/
 │
 └── 13_Practice_Programs/
-````
+```
 
 ---
 
@@ -106,6 +112,30 @@ C-Programming-Basics/
 
 ---
 
+# 📖 02 - Operators
+
+### Topics Completed
+
+* Arithmetic Operators
+* Relational Operators
+* Logical Operators
+* Bitwise Operators
+* Assignment Operators
+* Increment and Decrement Operators
+
+### Programs
+
+| No. | Program                  | Status |
+| --- | ------------------------ | ------ |
+| 1   | `arithmetic_operators.c` | ✅      |
+| 2   | `relational_operators.c` | ✅      |
+| 3   | `logical_operators.c`    | ✅      |
+| 4   | `bitwise_operators.c`    | ✅      |
+| 5   | `assignment_operators.c` | ✅      |
+| 6   | `increment_decrement.c`  | ✅      |
+
+---
+
 ## 🛠️ Tools Used
 
 * **Language:** C
@@ -121,25 +151,23 @@ C-Programming-Basics/
 Compile a C program using GCC:
 
 ```bash
-gcc hello_world.c -o hello_world
+gcc program.c -o program
 ```
 
 Run on Windows:
 
 ```bash
-.\hello_world.exe
+.\program.exe
 ```
 
 ---
 
-## 🚀 Upcoming Topics
-
-After completing C Basics, I will continue with:
+## 🚀 Learning Roadmap
 
 ```text
 01. C Basics                    ✅
         ↓
-02. Operators                   ⬜
+02. Operators                   ✅
         ↓
 03. Conditional Statements      ⬜
         ↓
@@ -167,6 +195,8 @@ Embedded C
         ↓
 Microcontrollers
         ↓
+Communication Protocols
+        ↓
 Embedded Firmware
 ```
 
@@ -190,6 +220,7 @@ Aspiring **Embedded Firmware Engineer**
 
 ### Current Focus
 
+```text
 C Programming
       ↓
 Embedded C
@@ -199,13 +230,4 @@ Microcontrollers
 Communication Protocols
       ↓
 Firmware Development
-
-### 📌 For your current GitHub
-
-Don't create all the `.c` files yet. Since you have completed only **01_Basics**, keep the other folders empty or create them later as you complete each topic.
-
-Your current progress is:
-
-**Day/Topic 01 → C Basics → ✅ Completed**
-
-Next, we can do **02_Operators** with **6 programs + simple explanations + expected output**, then you can push that to GitHub.
+```
