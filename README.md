@@ -26,7 +26,7 @@ This repository documents my learning journey in the **C programming language**,
 | --- | ------------------------- | ------------- |
 | 01  | C Basics                  | ✅ Completed   |
 | 02  | Operators                 | ✅ Completed   |
-| 03  | Conditional Statements    | ⬜ Not Started |
+| 03  | Conditional Statements    | ✅ Completed   |
 | 04  | Loops                     | ⬜ Not Started |
 | 05  | Functions                 | ⬜ Not Started |
 | 06  | Arrays                    | ⬜ Not Started |
@@ -64,6 +64,11 @@ C-Programming-Basics/
 │   └── increment_decrement.c
 │
 ├── 03_Conditional_Statements/
+│   ├── if.c
+│   ├── if_else.c
+│   ├── else_if.c
+│   ├── nested_if.c
+│   └── switch_case.c
 │
 ├── 04_Loops/
 │
@@ -136,6 +141,28 @@ C-Programming-Basics/
 
 ---
 
+# 📖 03 - Conditional Statements
+
+### Topics Completed
+
+* `if` Statement
+* `if-else` Statement
+* `else-if` Ladder
+* Nested `if`
+* `switch-case` Statement
+
+### Programs
+
+| No. | Program         | Status |
+| --- | --------------- | ------ |
+| 1   | `if.c`          | ✅      |
+| 2   | `if_else.c`     | ✅      |
+| 3   | `else_if.c`     | ✅      |
+| 4   | `nested_if.c`   | ✅      |
+| 5   | `switch_case.c` | ✅      |
+
+---
+
 ## 🛠️ Tools Used
 
 * **Language:** C
@@ -169,7 +196,7 @@ Run on Windows:
         ↓
 02. Operators                   ✅
         ↓
-03. Conditional Statements      ⬜
+03. Conditional Statements      ✅
         ↓
 04. Loops                       ⬜
         ↓
