@@ -27,7 +27,7 @@ This repository documents my learning journey in the **C programming language**,
 | 01  | C Basics                  | ✅ Completed   |
 | 02  | Operators                 | ✅ Completed   |
 | 03  | Conditional Statements    | ✅ Completed   |
-| 04  | Loops                     | ⬜ Not Started |
+| 04  | Loops                     | ✅ Completed   |
 | 05  | Functions                 | ⬜ Not Started |
 | 06  | Arrays                    | ⬜ Not Started |
 | 07  | Strings                   | ⬜ Not Started |
@@ -71,6 +71,11 @@ C-Programming-Basics/
 │   └── switch_case.c
 │
 ├── 04_Loops/
+│   ├── for_loop.c
+│   ├── while_loop.c
+│   ├── do_while.c
+│   ├── nested_loop.c
+│   └── pattern_programs.c
 │
 ├── 05_Functions/
 │
@@ -163,6 +168,28 @@ C-Programming-Basics/
 
 ---
 
+# 📖 04 - Loops
+
+### Topics Completed
+
+* `for` Loop
+* `while` Loop
+* `do-while` Loop
+* Nested Loops
+* Pattern Programs
+
+### Programs
+
+| No. | Program              | Status |
+| --- | -------------------- | ------ |
+| 1   | `for_loop.c`         | ✅      |
+| 2   | `while_loop.c`       | ✅      |
+| 3   | `do_while.c`         | ✅      |
+| 4   | `nested_loop.c`      | ✅      |
+| 5   | `pattern_programs.c` | ✅      |
+
+---
+
 ## 🛠️ Tools Used
 
 * **Language:** C
@@ -194,29 +221,29 @@ Run on Windows:
 ```text
 01. C Basics                    ✅
         ↓
-02. Operators                   ✅
+02. Operators                  ✅
         ↓
-03. Conditional Statements      ✅
+03. Conditional Statements     ✅
         ↓
-04. Loops                       ⬜
+04. Loops                      ✅
         ↓
-05. Functions                   ⬜
+05. Functions                  ⬜
         ↓
-06. Arrays                      ⬜
+06. Arrays                     ⬜
         ↓
-07. Strings                     ⬜
+07. Strings                    ⬜
         ↓
-08. Pointers                    ⬜
+08. Pointers                   ⬜
         ↓
-09. Structures & Unions         ⬜
+09. Structures & Unions        ⬜
         ↓
-10. Dynamic Memory              ⬜
+10. Dynamic Memory             ⬜
         ↓
-11. File Handling               ⬜
+11. File Handling              ⬜
         ↓
-12. Bit Manipulation             ⬜
+12. Bit Manipulation           ⬜
         ↓
-13. Practice Programs            ⬜
+13. Practice Programs          ⬜
         ↓
 Embedded C
         ↓
