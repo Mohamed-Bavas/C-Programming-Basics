@@ -28,7 +28,7 @@ This repository documents my learning journey in the **C programming language**,
 | 02  | Operators                 | ✅ Completed   |
 | 03  | Conditional Statements    | ✅ Completed   |
 | 04  | Loops                     | ✅ Completed   |
-| 05  | Functions                 | ⬜ Not Started |
+| 05  | Functions                 | ✅ Completed   |
 | 06  | Arrays                    | ⬜ Not Started |
 | 07  | Strings                   | ⬜ Not Started |
 | 08  | Pointers                  | ⬜ Not Started |
@@ -78,6 +78,11 @@ C-Programming-Basics/
 │   └── pattern_programs.c
 │
 ├── 05_Functions/
+│   ├── function_basics.c
+│   ├── function_arguments.c
+│   ├── return_value.c
+│   ├── call_by_value.c
+│   └── recursion.c
 │
 ├── 06_Arrays/
 │
@@ -190,6 +195,28 @@ C-Programming-Basics/
 
 ---
 
+# 📖 05 - Functions
+
+### Topics Completed
+
+* Function Basics
+* Function Arguments
+* Return Values
+* Call by Value
+* Recursion
+
+### Programs
+
+| No. | Program                | Status |
+| --- | ---------------------- | ------ |
+| 1   | `function_basics.c`    | ✅      |
+| 2   | `function_arguments.c` | ✅      |
+| 3   | `return_value.c`       | ✅      |
+| 4   | `call_by_value.c`      | ✅      |
+| 5   | `recursion.c`          | ✅      |
+
+---
+
 ## 🛠️ Tools Used
 
 * **Language:** C
@@ -227,7 +254,7 @@ Run on Windows:
         ↓
 04. Loops                      ✅
         ↓
-05. Functions                  ⬜
+05. Functions                  ✅
         ↓
 06. Arrays                     ⬜
         ↓
