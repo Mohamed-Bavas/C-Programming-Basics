@@ -30,8 +30,8 @@ This repository documents my learning journey in the **C programming language**,
 | 04  | Loops                     | ✅ Completed   |
 | 05  | Functions                 | ✅ Completed   |
 | 06  | Arrays                    | ✅ Completed   |
-| 07  | Strings                   | ⬜ Not Started |
-| 08  | Pointers                  | ⬜ Not Started |
+| 07  | Strings                   | ✅ Completed   |
+| 08  | Pointers                  | ✅ Completed   |
 | 09  | Structures & Unions       | ⬜ Not Started |
 | 10  | Dynamic Memory Allocation | ⬜ Not Started |
 | 11  | File Handling             | ⬜ Not Started |
@@ -94,8 +94,22 @@ C-Programming-Basics/
 │   └── array_2d.c
 │
 ├── 07_Strings/
+│   ├── string_basics.c
+│   ├── string_input.c
+│   ├── string_length.c
+│   ├── string_copy.c
+│   ├── string_concat.c
+│   ├── string_compare.c
+│   └── string_functions.c
 │
 ├── 08_Pointers/
+│   ├── pointer_basics.c
+│   ├── pointer_address.c
+│   ├── pointer_dereference.c
+│   ├── pointer_arithmetic.c
+│   ├── pointer_array.c
+│   ├── pointer_function.c
+│   └── pointer_to_pointer.c
 │
 ├── 09_Structures_Unions/
 │
@@ -255,7 +269,7 @@ C-Programming-Basics/
 
 # 📖 07 - Strings
 
-### Topics
+### Topics Completed
 
 * String Basics
 * String Declaration and Initialization
@@ -270,19 +284,19 @@ C-Programming-Basics/
 
 | No. | Program              | Status |
 | --- | -------------------- | ------ |
-| 1   | `string_basics.c`    | ⬜      |
-| 2   | `string_input.c`     | ⬜      |
-| 3   | `string_length.c`    | ⬜      |
-| 4   | `string_copy.c`      | ⬜      |
-| 5   | `string_concat.c`    | ⬜      |
-| 6   | `string_compare.c`   | ⬜      |
-| 7   | `string_functions.c` | ⬜      |
+| 1   | `string_basics.c`    | ✅      |
+| 2   | `string_input.c`     | ✅      |
+| 3   | `string_length.c`    | ✅      |
+| 4   | `string_copy.c`      | ✅      |
+| 5   | `string_concat.c`    | ✅      |
+| 6   | `string_compare.c`   | ✅      |
+| 7   | `string_functions.c` | ✅      |
 
 ---
 
 # 📖 08 - Pointers
 
-### Topics
+### Topics Completed
 
 * Pointer Basics
 * Address Operator
@@ -297,13 +311,13 @@ C-Programming-Basics/
 
 | No. | Program                 | Status |
 | --- | ----------------------- | ------ |
-| 1   | `pointer_basics.c`      | ⬜      |
-| 2   | `pointer_address.c`     | ⬜      |
-| 3   | `pointer_dereference.c` | ⬜      |
-| 4   | `pointer_arithmetic.c`  | ⬜      |
-| 5   | `pointer_array.c`       | ⬜      |
-| 6   | `pointer_function.c`    | ⬜      |
-| 7   | `pointer_to_pointer.c`  | ⬜      |
+| 1   | `pointer_basics.c`      | ✅      |
+| 2   | `pointer_address.c`     | ✅      |
+| 3   | `pointer_dereference.c` | ✅      |
+| 4   | `pointer_arithmetic.c`  | ✅      |
+| 5   | `pointer_array.c`       | ✅      |
+| 6   | `pointer_function.c`    | ✅      |
+| 7   | `pointer_to_pointer.c`  | ✅      |
 
 ---
 
@@ -475,9 +489,9 @@ Run on Windows:
         ↓
 06. Arrays                     ✅
         ↓
-07. Strings                    ⬜
+07. Strings                    ✅
         ↓
-08. Pointers                   ⬜
+08. Pointers                   ✅
         ↓
 09. Structures & Unions        ⬜
         ↓
@@ -503,19 +517,19 @@ Embedded Firmware
 ## 📊 Current Progress
 
 ```text
-Completed Topics : 06 / 13
-Progress         : 46%
+Completed Topics : 08 / 13
+Progress         : 62%
 ```
 
 ```text
 01. C Basics                  ████████████████████ ✅
-02. Operators                ████████████████████ ✅
-03. Conditional Statements   ████████████████████ ✅
+02. Operators                 ████████████████████ ✅
+03. Conditional Statements    ████████████████████ ✅
 04. Loops                    ████████████████████ ✅
 05. Functions                ████████████████████ ✅
 06. Arrays                   ████████████████████ ✅
-07. Strings                  ░░░░░░░░░░░░░░░░░░░░ ⬜
-08. Pointers                 ░░░░░░░░░░░░░░░░░░░░ ⬜
+07. Strings                  ████████████████████ ✅
+08. Pointers                 ████████████████████ ✅
 09. Structures & Unions      ░░░░░░░░░░░░░░░░░░░░ ⬜
 10. Dynamic Memory            ░░░░░░░░░░░░░░░░░░░░ ⬜
 11. File Handling             ░░░░░░░░░░░░░░░░░░░░ ⬜
