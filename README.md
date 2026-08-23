@@ -1,3 +1,4 @@
+
 # 🚀 C Programming Basics
 
 Welcome to my **C Programming Basics** repository.
@@ -13,8 +14,9 @@ This repository documents my learning journey in the **C programming language**,
 * Understand variables, data types, and operators
 * Learn control statements and loops
 * Understand functions, arrays, strings, and pointers
-* Learn memory management
-* Practice structures and unions
+* Learn structures and unions
+* Learn dynamic memory management
+* Practice file handling
 * Master bit manipulation
 * Prepare for Embedded C and Firmware Development
 
@@ -22,17 +24,17 @@ This repository documents my learning journey in the **C programming language**,
 
 ## 📚 Learning Progress
 
-| No. | Topic                     | Status        |
-| --- | ------------------------- | ------------- |
-| 01  | C Basics                  | ✅ Completed   |
-| 02  | Operators                 | ✅ Completed   |
-| 03  | Conditional Statements    | ✅ Completed   |
-| 04  | Loops                     | ✅ Completed   |
-| 05  | Functions                 | ✅ Completed   |
-| 06  | Arrays                    | ✅ Completed   |
-| 07  | Strings                   | ⬜ Not Started |
-| 08  | Pointers                  | ⬜ Not Started |
-| 09  | Structures & Unions       | ⬜ Not Started |
+| No. | Topic                     | Status |
+| --- | ------------------------- | ------ |
+| 01  | C Basics                  | ✅ Completed |
+| 02  | Operators                 | ✅ Completed |
+| 03  | Conditional Statements    | ✅ Completed |
+| 04  | Loops                     | ✅ Completed |
+| 05  | Functions                 | ✅ Completed |
+| 06  | Arrays                    | ✅ Completed |
+| 07  | Strings                   | ✅ Completed |
+| 08  | Pointers                  | ✅ Completed |
+| 09  | Structures & Unions       | ✅ Completed |
 | 10  | Dynamic Memory Allocation | ⬜ Not Started |
 | 11  | File Handling             | ⬜ Not Started |
 | 12  | Bit Manipulation          | ⬜ Not Started |
@@ -94,10 +96,29 @@ C-Programming-Basics/
 │   └── array_2d.c
 │
 ├── 07_Strings/
+│   ├── string_basics.c
+│   ├── string_input.c
+│   ├── string_length.c
+│   ├── string_copy.c
+│   ├── string_concat.c
+│   ├── string_compare.c
+│   └── string_functions.c
 │
 ├── 08_Pointers/
+│   ├── pointer_basics.c
+│   ├── pointer_address.c
+│   ├── pointer_dereference.c
+│   ├── pointer_arithmetic.c
+│   ├── pointer_array.c
+│   ├── pointer_function.c
+│   └── pointer_to_pointer.c
 │
 ├── 09_Structures_Unions/
+│   ├── structure_basics.c
+│   ├── structure_array.c
+│   ├── nested_structure.c
+│   ├── structure_pointer.c
+│   └── union_basics.c
 │
 ├── 10_Dynamic_Memory/
 │
@@ -106,9 +127,7 @@ C-Programming-Basics/
 ├── 12_Bit_Manipulation/
 │
 └── 13_Practice_Programs/
-```
-
----
+````
 
 # 📖 01 - C Basics
 
@@ -255,7 +274,7 @@ C-Programming-Basics/
 
 # 📖 07 - Strings
 
-### Topics
+### Topics Completed
 
 * String Basics
 * String Declaration and Initialization
@@ -270,19 +289,19 @@ C-Programming-Basics/
 
 | No. | Program              | Status |
 | --- | -------------------- | ------ |
-| 1   | `string_basics.c`    | ⬜      |
-| 2   | `string_input.c`     | ⬜      |
-| 3   | `string_length.c`    | ⬜      |
-| 4   | `string_copy.c`      | ⬜      |
-| 5   | `string_concat.c`    | ⬜      |
-| 6   | `string_compare.c`   | ⬜      |
-| 7   | `string_functions.c` | ⬜      |
+| 1   | `string_basics.c`    | ✅      |
+| 2   | `string_input.c`     | ✅      |
+| 3   | `string_length.c`    | ✅      |
+| 4   | `string_copy.c`      | ✅      |
+| 5   | `string_concat.c`    | ✅      |
+| 6   | `string_compare.c`   | ✅      |
+| 7   | `string_functions.c` | ✅      |
 
 ---
 
 # 📖 08 - Pointers
 
-### Topics
+### Topics Completed
 
 * Pointer Basics
 * Address Operator
@@ -297,19 +316,19 @@ C-Programming-Basics/
 
 | No. | Program                 | Status |
 | --- | ----------------------- | ------ |
-| 1   | `pointer_basics.c`      | ⬜      |
-| 2   | `pointer_address.c`     | ⬜      |
-| 3   | `pointer_dereference.c` | ⬜      |
-| 4   | `pointer_arithmetic.c`  | ⬜      |
-| 5   | `pointer_array.c`       | ⬜      |
-| 6   | `pointer_function.c`    | ⬜      |
-| 7   | `pointer_to_pointer.c`  | ⬜      |
+| 1   | `pointer_basics.c`      | ✅      |
+| 2   | `pointer_address.c`     | ✅      |
+| 3   | `pointer_dereference.c` | ✅      |
+| 4   | `pointer_arithmetic.c`  | ✅      |
+| 5   | `pointer_array.c`       | ✅      |
+| 6   | `pointer_function.c`    | ✅      |
+| 7   | `pointer_to_pointer.c`  | ✅      |
 
 ---
 
 # 📖 09 - Structures & Unions
 
-### Topics
+### Topics Completed
 
 * Structure Basics
 * Structure Declaration
@@ -324,11 +343,11 @@ C-Programming-Basics/
 
 | No. | Program               | Status |
 | --- | --------------------- | ------ |
-| 1   | `structure_basics.c`  | ⬜      |
-| 2   | `structure_array.c`   | ⬜      |
-| 3   | `nested_structure.c`  | ⬜      |
-| 4   | `structure_pointer.c` | ⬜      |
-| 5   | `union_basics.c`      | ⬜      |
+| 1   | `structure_basics.c`  | ✅      |
+| 2   | `structure_array.c`   | ✅      |
+| 3   | `nested_structure.c`  | ✅      |
+| 4   | `structure_pointer.c` | ✅      |
+| 5   | `union_basics.c`      | ✅      |
 
 ---
 
@@ -469,17 +488,17 @@ Run on Windows:
         ↓
 03. Conditional Statements     ✅
         ↓
-04. Loops                      ✅
+04. Loops                     ✅
         ↓
-05. Functions                  ✅
+05. Functions                 ✅
         ↓
-06. Arrays                     ✅
+06. Arrays                    ✅
         ↓
-07. Strings                    ⬜
+07. Strings                   ✅
         ↓
-08. Pointers                   ⬜
+08. Pointers                  ✅
         ↓
-09. Structures & Unions        ⬜
+09. Structures & Unions       ✅
         ↓
 10. Dynamic Memory             ⬜
         ↓
@@ -503,20 +522,20 @@ Embedded Firmware
 ## 📊 Current Progress
 
 ```text
-Completed Topics : 06 / 13
-Progress         : 46%
+Completed Topics : 09 / 13
+Progress         : 69%
 ```
 
 ```text
 01. C Basics                  ████████████████████ ✅
-02. Operators                ████████████████████ ✅
-03. Conditional Statements   ████████████████████ ✅
+02. Operators                 ████████████████████ ✅
+03. Conditional Statements    ████████████████████ ✅
 04. Loops                    ████████████████████ ✅
 05. Functions                ████████████████████ ✅
 06. Arrays                   ████████████████████ ✅
-07. Strings                  ░░░░░░░░░░░░░░░░░░░░ ⬜
-08. Pointers                 ░░░░░░░░░░░░░░░░░░░░ ⬜
-09. Structures & Unions      ░░░░░░░░░░░░░░░░░░░░ ⬜
+07. Strings                  ████████████████████ ✅
+08. Pointers                 ████████████████████ ✅
+09. Structures & Unions      ████████████████████ ✅
 10. Dynamic Memory            ░░░░░░░░░░░░░░░░░░░░ ⬜
 11. File Handling             ░░░░░░░░░░░░░░░░░░░░ ⬜
 12. Bit Manipulation          ░░░░░░░░░░░░░░░░░░░░ ⬜
@@ -564,3 +583,6 @@ Firmware Development
 I am continuously learning, practicing, debugging, and building projects to strengthen my programming and embedded systems knowledge.
 
 **One step at a time. One program at a time. One day closer to becoming an Embedded Firmware Engineer. 🚀**
+
+```
+```
