@@ -584,5 +584,3 @@ I am continuously learning, practicing, debugging, and building projects to stre
 
 **One step at a time. One program at a time. One day closer to becoming an Embedded Firmware Engineer. 🚀**
 
-```
-```
