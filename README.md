@@ -1,4 +1,3 @@
-
 # 🚀 C Programming Basics
 
 Welcome to my **C Programming Basics** repository.
@@ -35,7 +34,7 @@ This repository documents my learning journey in the **C programming language**,
 | 07  | Strings                   | ✅ Completed |
 | 08  | Pointers                  | ✅ Completed |
 | 09  | Structures & Unions       | ✅ Completed |
-| 10  | Dynamic Memory Allocation | ⬜ Not Started |
+| 10  | Dynamic Memory Allocation | ✅ Completed |
 | 11  | File Handling             | ⬜ Not Started |
 | 12  | Bit Manipulation          | ⬜ Not Started |
 | 13  | Practice Programs         | ⬜ Not Started |
@@ -121,6 +120,11 @@ C-Programming-Basics/
 │   └── union_basics.c
 │
 ├── 10_Dynamic_Memory/
+│   ├── malloc.c
+│   ├── calloc.c
+│   ├── realloc.c
+│   ├── free.c
+│   └── dynamic_array.c
 │
 ├── 11_File_Handling/
 │
@@ -353,7 +357,7 @@ C-Programming-Basics/
 
 # 📖 10 - Dynamic Memory Allocation
 
-### Topics
+### Topics Completed
 
 * Dynamic Memory Basics
 * `malloc()`
@@ -367,11 +371,11 @@ C-Programming-Basics/
 
 | No. | Program           | Status |
 | --- | ----------------- | ------ |
-| 1   | `malloc.c`        | ⬜      |
-| 2   | `calloc.c`        | ⬜      |
-| 3   | `realloc.c`       | ⬜      |
-| 4   | `free.c`          | ⬜      |
-| 5   | `dynamic_array.c` | ⬜      |
+| 1   | `malloc.c`        | ✅      |
+| 2   | `calloc.c`        | ✅      |
+| 3   | `realloc.c`       | ✅      |
+| 4   | `free.c`          | ✅      |
+| 5   | `dynamic_array.c` | ✅      |
 
 ---
 
@@ -500,7 +504,7 @@ Run on Windows:
         ↓
 09. Structures & Unions       ✅
         ↓
-10. Dynamic Memory             ⬜
+10. Dynamic Memory             ✅
         ↓
 11. File Handling              ⬜
         ↓
@@ -522,8 +526,8 @@ Embedded Firmware
 ## 📊 Current Progress
 
 ```text
-Completed Topics : 09 / 13
-Progress         : 69%
+Completed Topics : 10 / 13
+Progress         : 77%
 ```
 
 ```text
@@ -536,7 +540,7 @@ Progress         : 69%
 07. Strings                  ████████████████████ ✅
 08. Pointers                 ████████████████████ ✅
 09. Structures & Unions      ████████████████████ ✅
-10. Dynamic Memory            ░░░░░░░░░░░░░░░░░░░░ ⬜
+10. Dynamic Memory            ████████████████████ ✅
 11. File Handling             ░░░░░░░░░░░░░░░░░░░░ ⬜
 12. Bit Manipulation          ░░░░░░░░░░░░░░░░░░░░ ⬜
 13. Practice Programs         ░░░░░░░░░░░░░░░░░░░░ ⬜
@@ -583,4 +587,3 @@ Firmware Development
 I am continuously learning, practicing, debugging, and building projects to strengthen my programming and embedded systems knowledge.
 
 **One step at a time. One program at a time. One day closer to becoming an Embedded Firmware Engineer. 🚀**
-
