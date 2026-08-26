@@ -4,7 +4,7 @@ void main()
     FILE *file;
     file = fopen("sample.txt", "w");
     if (file == NULL)
-      return 1;
+    printf("File not found\n");
     fprintf(file, "Embedded C Programming\n");
     fprintf(file, "Learning C basics\n");
     fclose(file);
