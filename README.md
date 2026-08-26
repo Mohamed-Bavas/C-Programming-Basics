@@ -23,19 +23,19 @@ This repository documents my learning journey in the **C programming language**,
 
 ## 📚 Learning Progress
 
-| No. | Topic                     | Status |
-| --- | ------------------------- | ------ |
-| 01  | C Basics                  | ✅ Completed |
-| 02  | Operators                 | ✅ Completed |
-| 03  | Conditional Statements    | ✅ Completed |
-| 04  | Loops                     | ✅ Completed |
-| 05  | Functions                 | ✅ Completed |
-| 06  | Arrays                    | ✅ Completed |
-| 07  | Strings                   | ✅ Completed |
-| 08  | Pointers                  | ✅ Completed |
-| 09  | Structures & Unions       | ✅ Completed |
-| 10  | Dynamic Memory Allocation | ✅ Completed |
-| 11  | File Handling             | ⬜ Not Started |
+| No. | Topic                     | Status        |
+| --- | ------------------------- | ------------- |
+| 01  | C Basics                  | ✅ Completed   |
+| 02  | Operators                 | ✅ Completed   |
+| 03  | Conditional Statements    | ✅ Completed   |
+| 04  | Loops                     | ✅ Completed   |
+| 05  | Functions                 | ✅ Completed   |
+| 06  | Arrays                    | ✅ Completed   |
+| 07  | Strings                   | ✅ Completed   |
+| 08  | Pointers                  | ✅ Completed   |
+| 09  | Structures & Unions       | ✅ Completed   |
+| 10  | Dynamic Memory Allocation | ✅ Completed   |
+| 11  | File Handling             | ✅ Completed   |
 | 12  | Bit Manipulation          | ⬜ Not Started |
 | 13  | Practice Programs         | ⬜ Not Started |
 
@@ -127,11 +127,17 @@ C-Programming-Basics/
 │   └── dynamic_array.c
 │
 ├── 11_File_Handling/
+│   ├── file_open.c
+│   ├── file_read.c
+│   ├── file_write.c
+│   └── file_append.c
 │
 ├── 12_Bit_Manipulation/
 │
 └── 13_Practice_Programs/
-````
+```
+
+---
 
 # 📖 01 - C Basics
 
@@ -381,7 +387,7 @@ C-Programming-Basics/
 
 # 📖 11 - File Handling
 
-### Topics
+### Topics Completed
 
 * File Handling Basics
 * Opening a File
@@ -395,10 +401,10 @@ C-Programming-Basics/
 
 | No. | Program         | Status |
 | --- | --------------- | ------ |
-| 1   | `file_open.c`   | ⬜      |
-| 2   | `file_read.c`   | ⬜      |
-| 3   | `file_write.c`  | ⬜      |
-| 4   | `file_append.c` | ⬜      |
+| 1   | `file_open.c`   | ✅      |
+| 2   | `file_read.c`   | ✅      |
+| 3   | `file_write.c`  | ✅      |
+| 4   | `file_append.c` | ✅      |
 
 ---
 
@@ -492,21 +498,21 @@ Run on Windows:
         ↓
 03. Conditional Statements     ✅
         ↓
-04. Loops                     ✅
+04. Loops                      ✅
         ↓
-05. Functions                 ✅
+05. Functions                  ✅
         ↓
-06. Arrays                    ✅
+06. Arrays                     ✅
         ↓
-07. Strings                   ✅
+07. Strings                    ✅
         ↓
-08. Pointers                  ✅
+08. Pointers                   ✅
         ↓
-09. Structures & Unions       ✅
+09. Structures & Unions        ✅
         ↓
 10. Dynamic Memory             ✅
         ↓
-11. File Handling              ⬜
+11. File Handling              ✅
         ↓
 12. Bit Manipulation           ⬜
         ↓
@@ -526,22 +532,22 @@ Embedded Firmware
 ## 📊 Current Progress
 
 ```text
-Completed Topics : 10 / 13
-Progress         : 77%
+Completed Topics : 11 / 13
+Progress         : 85%
 ```
 
 ```text
 01. C Basics                  ████████████████████ ✅
 02. Operators                 ████████████████████ ✅
 03. Conditional Statements    ████████████████████ ✅
-04. Loops                    ████████████████████ ✅
-05. Functions                ████████████████████ ✅
-06. Arrays                   ████████████████████ ✅
-07. Strings                  ████████████████████ ✅
-08. Pointers                 ████████████████████ ✅
-09. Structures & Unions      ████████████████████ ✅
+04. Loops                     ████████████████████ ✅
+05. Functions                 ████████████████████ ✅
+06. Arrays                    ████████████████████ ✅
+07. Strings                   ████████████████████ ✅
+08. Pointers                  ████████████████████ ✅
+09. Structures & Unions       ████████████████████ ✅
 10. Dynamic Memory            ████████████████████ ✅
-11. File Handling             ░░░░░░░░░░░░░░░░░░░░ ⬜
+11. File Handling             ████████████████████ ✅
 12. Bit Manipulation          ░░░░░░░░░░░░░░░░░░░░ ⬜
 13. Practice Programs         ░░░░░░░░░░░░░░░░░░░░ ⬜
 ```
