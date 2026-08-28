@@ -1,6 +1,3 @@
-Absolutely. Since **Days 01–12 are completed** and **Day 13 is your Practice Programs**, here is the updated **full `README.md`** based on your actual repository structure.
-
-````markdown
 # 🚀 C Programming Basics
 
 Welcome to my **C Programming Basics** repository.
