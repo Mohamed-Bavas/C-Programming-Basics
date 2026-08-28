@@ -563,8 +563,5 @@ I am continuously learning, practicing, debugging, and building programs to stre
 
 > **One program at a time. One concept at a time. One step closer to becoming an Embedded Firmware Engineer. 🚀**
 
-```
-
 **Your current status:** **12/13 topics completed = 92%**.  
 Only **13 – Practice Programs** remains.
-```
