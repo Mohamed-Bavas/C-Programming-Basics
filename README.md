@@ -1,47 +1,56 @@
+Absolutely. Since **Days 01–12 are completed** and **Day 13 is your Practice Programs**, here is the updated **full `README.md`** based on your actual repository structure.
+
+````markdown
 # 🚀 C Programming Basics
 
 Welcome to my **C Programming Basics** repository.
 
-This repository documents my learning journey in the **C programming language**, starting from the fundamentals and gradually progressing toward concepts required for **Embedded C and Embedded Firmware Development**.
+This repository documents my learning journey in the **C programming language**, starting from the fundamentals and progressing toward concepts required for **Embedded C and Embedded Firmware Development**.
+
+The goal is to build strong programming fundamentals through **learning, coding, debugging, and practice**.
 
 ---
 
 ## 🎯 Objectives
 
-* Build a strong foundation in C programming
-* Improve logical and problem-solving skills
-* Understand variables, data types, and operators
-* Learn control statements and loops
-* Understand functions, arrays, strings, and pointers
-* Learn structures and unions
-* Learn dynamic memory management
-* Practice file handling
-* Master bit manipulation
-* Prepare for Embedded C and Firmware Development
+- Build a strong foundation in C programming
+- Improve logical and problem-solving skills
+- Understand variables and data types
+- Learn operators and expressions
+- Understand conditional statements and loops
+- Learn functions and recursion
+- Master arrays and strings
+- Understand pointers and memory concepts
+- Learn structures and unions
+- Understand dynamic memory allocation
+- Learn file handling
+- Master bit manipulation
+- Practice real-world C programming problems
+- Prepare for Embedded C and Firmware Development
 
 ---
 
-## 📚 Learning Progress
+# 📚 Learning Progress
 
-| No. | Topic                     | Status        |
-| --- | ------------------------- | ------------- |
-| 01  | C Basics                  | ✅ Completed   |
-| 02  | Operators                 | ✅ Completed   |
-| 03  | Conditional Statements    | ✅ Completed   |
-| 04  | Loops                     | ✅ Completed   |
-| 05  | Functions                 | ✅ Completed   |
-| 06  | Arrays                    | ✅ Completed   |
-| 07  | Strings                   | ✅ Completed   |
-| 08  | Pointers                  | ✅ Completed   |
-| 09  | Structures & Unions       | ✅ Completed   |
-| 10  | Dynamic Memory Allocation | ✅ Completed   |
-| 11  | File Handling             | ✅ Completed   |
-| 12  | Bit Manipulation          | ⬜ Not Started |
-| 13  | Practice Programs         | ⬜ Not Started |
+| No. | Topic | Status |
+| --- | --- | --- |
+| 01 | C Basics | ✅ Completed |
+| 02 | Operators | ✅ Completed |
+| 03 | Conditional Statements | ✅ Completed |
+| 04 | Loops | ✅ Completed |
+| 05 | Functions | ✅ Completed |
+| 06 | Arrays | ✅ Completed |
+| 07 | Strings | ✅ Completed |
+| 08 | Pointers | ✅ Completed |
+| 09 | Structures & Unions | ✅ Completed |
+| 10 | Dynamic Memory Allocation | ✅ Completed |
+| 11 | File Handling | ✅ Completed |
+| 12 | Bit Manipulation | ✅ Completed |
+| 13 | Practice Programs | ⬜ Not Started |
 
 ---
 
-## 📂 Repository Structure
+# 📂 Repository Structure
 
 ```text
 C-Programming-Basics/
@@ -86,56 +95,60 @@ C-Programming-Basics/
 │   └── recursion.c
 │
 ├── 06_Arrays/
-│   ├── array_basics.c
-│   ├── array_input.c
-│   ├── array_output.c
+│   ├── one_dimensional_array.c
+│   ├── two_dimensional_array.c
 │   ├── array_sum.c
 │   ├── array_max_min.c
-│   ├── array_search.c
-│   └── array_2d.c
+│   └── array_sorting.c
 │
 ├── 07_Strings/
-│   ├── string_basics.c
 │   ├── string_input.c
 │   ├── string_length.c
 │   ├── string_copy.c
-│   ├── string_concat.c
 │   ├── string_compare.c
-│   └── string_functions.c
+│   └── string_reverse.c
 │
 ├── 08_Pointers/
 │   ├── pointer_basics.c
-│   ├── pointer_address.c
-│   ├── pointer_dereference.c
 │   ├── pointer_arithmetic.c
 │   ├── pointer_array.c
 │   ├── pointer_function.c
-│   └── pointer_to_pointer.c
+│   └── pointer_string.c
 │
 ├── 09_Structures_Unions/
-│   ├── structure_basics.c
-│   ├── structure_array.c
+│   ├── structure.c
+│   ├── array_of_structures.c
 │   ├── nested_structure.c
-│   ├── structure_pointer.c
-│   └── union_basics.c
+│   └── union.c
 │
 ├── 10_Dynamic_Memory/
 │   ├── malloc.c
 │   ├── calloc.c
 │   ├── realloc.c
-│   ├── free.c
-│   └── dynamic_array.c
+│   └── free.c
 │
 ├── 11_File_Handling/
-│   ├── file_open.c
-│   ├── file_read.c
+│   ├── file_create.c
 │   ├── file_write.c
+│   ├── file_read.c
 │   └── file_append.c
 │
 ├── 12_Bit_Manipulation/
+│   ├── set_bit.c
+│   ├── clear_bit.c
+│   ├── toggle_bit.c
+│   ├── check_bit.c
+│   └── bitwise_practice.c
 │
 └── 13_Practice_Programs/
-```
+    ├── prime_number.c
+    ├── palindrome.c
+    ├── fibonacci.c
+    ├── factorial.c
+    ├── armstrong.c
+    ├── reverse_number.c
+    └── calculator.c
+````
 
 ---
 
@@ -257,28 +270,22 @@ C-Programming-Basics/
 
 ### Topics Completed
 
-* Array Basics
 * One-Dimensional Arrays
 * Two-Dimensional Arrays
 * Array Declaration and Initialization
-* Array Input and Output
-* Traversing Arrays
-* Finding Sum and Average
+* Array Sum
 * Finding Maximum and Minimum
-* Searching Elements
-* Basic Array Operations
+* Array Sorting
 
 ### Programs
 
-| No. | Program           | Status |
-| --- | ----------------- | ------ |
-| 1   | `array_basics.c`  | ✅      |
-| 2   | `array_input.c`   | ✅      |
-| 3   | `array_output.c`  | ✅      |
-| 4   | `array_sum.c`     | ✅      |
-| 5   | `array_max_min.c` | ✅      |
-| 6   | `array_search.c`  | ✅      |
-| 7   | `array_2d.c`      | ✅      |
+| No. | Program                   | Status |
+| --- | ------------------------- | ------ |
+| 1   | `one_dimensional_array.c` | ✅      |
+| 2   | `two_dimensional_array.c` | ✅      |
+| 3   | `array_sum.c`             | ✅      |
+| 4   | `array_max_min.c`         | ✅      |
+| 5   | `array_sorting.c`         | ✅      |
 
 ---
 
@@ -286,26 +293,21 @@ C-Programming-Basics/
 
 ### Topics Completed
 
-* String Basics
-* String Declaration and Initialization
-* String Input and Output
+* String Input
 * String Length
 * String Copy
-* String Concatenation
 * String Comparison
-* String Functions
+* String Reverse
 
 ### Programs
 
-| No. | Program              | Status |
-| --- | -------------------- | ------ |
-| 1   | `string_basics.c`    | ✅      |
-| 2   | `string_input.c`     | ✅      |
-| 3   | `string_length.c`    | ✅      |
-| 4   | `string_copy.c`      | ✅      |
-| 5   | `string_concat.c`    | ✅      |
-| 6   | `string_compare.c`   | ✅      |
-| 7   | `string_functions.c` | ✅      |
+| No. | Program            | Status |
+| --- | ------------------ | ------ |
+| 1   | `string_input.c`   | ✅      |
+| 2   | `string_length.c`  | ✅      |
+| 3   | `string_copy.c`    | ✅      |
+| 4   | `string_compare.c` | ✅      |
+| 5   | `string_reverse.c` | ✅      |
 
 ---
 
@@ -314,25 +316,20 @@ C-Programming-Basics/
 ### Topics Completed
 
 * Pointer Basics
-* Address Operator
-* Dereference Operator
-* Pointer Declaration
 * Pointer Arithmetic
 * Pointers and Arrays
 * Pointers and Functions
-* Pointer to Pointer
+* Pointers and Strings
 
 ### Programs
 
-| No. | Program                 | Status |
-| --- | ----------------------- | ------ |
-| 1   | `pointer_basics.c`      | ✅      |
-| 2   | `pointer_address.c`     | ✅      |
-| 3   | `pointer_dereference.c` | ✅      |
-| 4   | `pointer_arithmetic.c`  | ✅      |
-| 5   | `pointer_array.c`       | ✅      |
-| 6   | `pointer_function.c`    | ✅      |
-| 7   | `pointer_to_pointer.c`  | ✅      |
+| No. | Program                | Status |
+| --- | ---------------------- | ------ |
+| 1   | `pointer_basics.c`     | ✅      |
+| 2   | `pointer_arithmetic.c` | ✅      |
+| 3   | `pointer_array.c`      | ✅      |
+| 4   | `pointer_function.c`   | ✅      |
+| 5   | `pointer_string.c`     | ✅      |
 
 ---
 
@@ -341,23 +338,18 @@ C-Programming-Basics/
 ### Topics Completed
 
 * Structure Basics
-* Structure Declaration
-* Structure Initialization
 * Array of Structures
 * Nested Structures
-* Structure Pointers
 * Union Basics
-* Difference Between Structure and Union
 
 ### Programs
 
-| No. | Program               | Status |
-| --- | --------------------- | ------ |
-| 1   | `structure_basics.c`  | ✅      |
-| 2   | `structure_array.c`   | ✅      |
-| 3   | `nested_structure.c`  | ✅      |
-| 4   | `structure_pointer.c` | ✅      |
-| 5   | `union_basics.c`      | ✅      |
+| No. | Program                 | Status |
+| --- | ----------------------- | ------ |
+| 1   | `structure.c`           | ✅      |
+| 2   | `array_of_structures.c` | ✅      |
+| 3   | `nested_structure.c`    | ✅      |
+| 4   | `union.c`               | ✅      |
 
 ---
 
@@ -365,23 +357,20 @@ C-Programming-Basics/
 
 ### Topics Completed
 
-* Dynamic Memory Basics
+* Dynamic Memory Allocation
 * `malloc()`
 * `calloc()`
 * `realloc()`
 * `free()`
-* Dynamic Arrays
-* Memory Management
 
 ### Programs
 
-| No. | Program           | Status |
-| --- | ----------------- | ------ |
-| 1   | `malloc.c`        | ✅      |
-| 2   | `calloc.c`        | ✅      |
-| 3   | `realloc.c`       | ✅      |
-| 4   | `free.c`          | ✅      |
-| 5   | `dynamic_array.c` | ✅      |
+| No. | Program     | Status |
+| --- | ----------- | ------ |
+| 1   | `malloc.c`  | ✅      |
+| 2   | `calloc.c`  | ✅      |
+| 3   | `realloc.c` | ✅      |
+| 4   | `free.c`    | ✅      |
 
 ---
 
@@ -389,81 +378,64 @@ C-Programming-Basics/
 
 ### Topics Completed
 
-* File Handling Basics
-* Opening a File
-* Closing a File
-* Reading from a File
-* Writing to a File
-* Append Mode
-* File Modes
+* File Creation
+* File Writing
+* File Reading
+* File Append
+* File Handling using standard C functions
 
 ### Programs
 
 | No. | Program         | Status |
 | --- | --------------- | ------ |
-| 1   | `file_open.c`   | ✅      |
-| 2   | `file_read.c`   | ✅      |
-| 3   | `file_write.c`  | ✅      |
+| 1   | `file_create.c` | ✅      |
+| 2   | `file_write.c`  | ✅      |
+| 3   | `file_read.c`   | ✅      |
 | 4   | `file_append.c` | ✅      |
 
 ---
 
 # 📖 12 - Bit Manipulation
 
-### Topics
+### Topics Completed
 
-* Bitwise AND
-* Bitwise OR
-* Bitwise XOR
-* Bitwise NOT
-* Left Shift
-* Right Shift
 * Set a Bit
 * Clear a Bit
 * Toggle a Bit
 * Check a Bit
+* Bitwise Operations Practice
 
 ### Programs
 
-| No. | Program         | Status |
-| --- | --------------- | ------ |
-| 1   | `bitwise_and.c` | ⬜      |
-| 2   | `bitwise_or.c`  | ⬜      |
-| 3   | `bitwise_xor.c` | ⬜      |
-| 4   | `bitwise_not.c` | ⬜      |
-| 5   | `left_shift.c`  | ⬜      |
-| 6   | `right_shift.c` | ⬜      |
-| 7   | `set_bit.c`     | ⬜      |
-| 8   | `clear_bit.c`   | ⬜      |
-| 9   | `toggle_bit.c`  | ⬜      |
-| 10  | `check_bit.c`   | ⬜      |
+| No. | Program              | Status |
+| --- | -------------------- | ------ |
+| 1   | `set_bit.c`          | ✅      |
+| 2   | `clear_bit.c`        | ✅      |
+| 3   | `toggle_bit.c`       | ✅      |
+| 4   | `check_bit.c`        | ✅      |
+| 5   | `bitwise_practice.c` | ✅      |
 
 ---
 
 # 📖 13 - Practice Programs
 
-### Planned Practice Programs
+This section contains practical C programming problems to strengthen logical thinking and problem-solving skills.
 
-* Even or Odd Number
-* Prime Number
-* Palindrome Number
-* Factorial
-* Fibonacci Series
-* Reverse a Number
-* Sum of Digits
-* Armstrong Number
-* Largest of Three Numbers
-* Array Operations
-* String Operations
-* Pattern Programs
+### Planned Programs
 
-### Status
-
-⬜ Not Started
+| No. | Program            | Status |
+| --- | ------------------ | ------ |
+| 1   | `prime_number.c`   | ⬜      |
+| 2   | `palindrome.c`     | ⬜      |
+| 3   | `fibonacci.c`      | ⬜      |
+| 4   | `factorial.c`      | ⬜      |
+| 5   | `armstrong.c`      | ⬜      |
+| 6   | `reverse_number.c` | ⬜      |
+| 7   | `calculator.c`     | ⬜      |
 
 ---
 
-## 🛠️ Tools Used
+# 🛠️ Tools Used
 
 * **Language:** C
 * **Compiler:** GCC
@@ -473,7 +445,7 @@ C-Programming-Basics/
 
 ---
 
-## 💻 Compile and Run
+# 💻 Compile and Run
 
 Compile a C program using GCC:
 
@@ -489,7 +461,7 @@ Run on Windows:
 
 ---
 
-## 🚀 Learning Roadmap
+# 🚀 Learning Roadmap
 
 ```text
 01. C Basics                    ✅
@@ -514,7 +486,7 @@ Run on Windows:
         ↓
 11. File Handling              ✅
         ↓
-12. Bit Manipulation           ⬜
+12. Bit Manipulation           ✅
         ↓
 13. Practice Programs          ⬜
         ↓
@@ -529,48 +501,36 @@ Embedded Firmware
 
 ---
 
-## 📊 Current Progress
+# 📊 Current Progress
 
 ```text
-Completed Topics : 11 / 13
-Progress         : 85%
+Completed Topics : 12 / 13
+Progress         : 92%
 ```
 
 ```text
 01. C Basics                  ████████████████████ ✅
-02. Operators                 ████████████████████ ✅
-03. Conditional Statements    ████████████████████ ✅
-04. Loops                     ████████████████████ ✅
-05. Functions                 ████████████████████ ✅
-06. Arrays                    ████████████████████ ✅
-07. Strings                   ████████████████████ ✅
-08. Pointers                  ████████████████████ ✅
-09. Structures & Unions       ████████████████████ ✅
+02. Operators                ████████████████████ ✅
+03. Conditional Statements   ████████████████████ ✅
+04. Loops                    ████████████████████ ✅
+05. Functions                ████████████████████ ✅
+06. Arrays                   ████████████████████ ✅
+07. Strings                  ████████████████████ ✅
+08. Pointers                 ████████████████████ ✅
+09. Structures & Unions      ████████████████████ ✅
 10. Dynamic Memory            ████████████████████ ✅
 11. File Handling             ████████████████████ ✅
-12. Bit Manipulation          ░░░░░░░░░░░░░░░░░░░░ ⬜
+12. Bit Manipulation          ████████████████████ ✅
 13. Practice Programs         ░░░░░░░░░░░░░░░░░░░░ ⬜
 ```
 
 ---
 
-## 🎯 Career Goal
+# 🎯 Career Goal
 
 My goal is to build strong **C and Embedded C programming skills** and become an **Embedded Firmware Engineer**.
 
-> **Learn → Practice → Debug → Build → Improve 🚀**
-
----
-
-## 👨‍💻 About Me
-
-**Mohamed Bavas**
-
-B.E. Electronics and Communication Engineering
-
-Aspiring **Embedded Firmware Engineer**
-
-### Current Focus
+I am focusing on developing strong fundamentals in:
 
 ```text
 C Programming
@@ -586,10 +546,28 @@ Firmware Development
 
 ---
 
-## 🚀 Learning Philosophy
+# 👨‍💻 About Me
 
-> **Consistency is the key to becoming a skilled Embedded Firmware Engineer.**
+**Mohamed Bavas**
 
-I am continuously learning, practicing, debugging, and building projects to strengthen my programming and embedded systems knowledge.
+B.E. Electronics and Communication Engineering
 
-**One step at a time. One program at a time. One day closer to becoming an Embedded Firmware Engineer. 🚀**
+Aspiring **Embedded Firmware Engineer**
+
+---
+
+# 🚀 Learning Philosophy
+
+> **Learn → Practice → Debug → Build → Improve 🚀**
+
+Consistency is the key to becoming a skilled Embedded Firmware Engineer.
+
+I am continuously learning, practicing, debugging, and building programs to strengthen my **C programming and embedded systems knowledge**.
+
+> **One program at a time. One concept at a time. One step closer to becoming an Embedded Firmware Engineer. 🚀**
+
+```
+
+**Your current status:** **12/13 topics completed = 92%**.  
+Only **13 – Practice Programs** remains.
+```
