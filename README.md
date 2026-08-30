@@ -4,50 +4,52 @@ Welcome to my **C Programming Basics** repository.
 
 This repository documents my learning journey in the **C programming language**, starting from the fundamentals and progressing toward concepts required for **Embedded C and Embedded Firmware Development**.
 
-The goal is to build strong programming fundamentals through **learning, coding, debugging, and practice**.
-
 ---
 
 ## 🎯 Objectives
 
-- Build a strong foundation in C programming
-- Improve logical and problem-solving skills
-- Understand variables and data types
-- Learn operators and expressions
-- Understand conditional statements and loops
-- Learn functions and recursion
-- Master arrays and strings
-- Understand pointers and memory concepts
-- Learn structures and unions
-- Understand dynamic memory allocation
-- Learn file handling
-- Master bit manipulation
-- Practice real-world C programming problems
-- Prepare for Embedded C and Firmware Development
+* Build a strong foundation in C programming
+* Improve logical and problem-solving skills
+* Understand variables, data types, and operators
+* Learn control statements and loops
+* Understand functions, arrays, strings, and pointers
+* Learn structures and unions
+* Understand dynamic memory allocation
+* Learn file handling
+* Master bit manipulation
+* Practice common C programming problems
+* Prepare for Embedded C and Firmware Development
 
 ---
 
-# 📚 Learning Progress
+## 📚 Learning Progress
 
-| No. | Topic | Status |
-| --- | --- | --- |
-| 01 | C Basics | ✅ Completed |
-| 02 | Operators | ✅ Completed |
-| 03 | Conditional Statements | ✅ Completed |
-| 04 | Loops | ✅ Completed |
-| 05 | Functions | ✅ Completed |
-| 06 | Arrays | ✅ Completed |
-| 07 | Strings | ✅ Completed |
-| 08 | Pointers | ✅ Completed |
-| 09 | Structures & Unions | ✅ Completed |
-| 10 | Dynamic Memory Allocation | ✅ Completed |
-| 11 | File Handling | ✅ Completed |
-| 12 | Bit Manipulation | ✅ Completed |
-| 13 | Practice Programs | ⬜ Not Started |
+| No. | Topic                     | Status      |
+| --- | ------------------------- | ----------- |
+| 01  | C Basics                  | ✅ Completed |
+| 02  | Operators                 | ✅ Completed |
+| 03  | Conditional Statements    | ✅ Completed |
+| 04  | Loops                     | ✅ Completed |
+| 05  | Functions                 | ✅ Completed |
+| 06  | Arrays                    | ✅ Completed |
+| 07  | Strings                   | ✅ Completed |
+| 08  | Pointers                  | ✅ Completed |
+| 09  | Structures & Unions       | ✅ Completed |
+| 10  | Dynamic Memory Allocation | ✅ Completed |
+| 11  | File Handling             | ✅ Completed |
+| 12  | Bit Manipulation          | ✅ Completed |
+| 13  | Practice Programs         | ✅ Completed |
+
+### 📊 Overall Progress
+
+```text
+Completed Topics : 13 / 13
+Progress         : 100% 🎉
+```
 
 ---
 
-# 📂 Repository Structure
+## 📂 Repository Structure
 
 ```text
 C-Programming-Basics/
@@ -145,7 +147,7 @@ C-Programming-Basics/
     ├── armstrong.c
     ├── reverse_number.c
     └── calculator.c
-````
+```
 
 ---
 
@@ -270,8 +272,10 @@ C-Programming-Basics/
 * One-Dimensional Arrays
 * Two-Dimensional Arrays
 * Array Declaration and Initialization
+* Array Input and Output
+* Array Traversal
 * Array Sum
-* Finding Maximum and Minimum
+* Maximum and Minimum
 * Array Sorting
 
 ### Programs
@@ -335,6 +339,7 @@ C-Programming-Basics/
 ### Topics Completed
 
 * Structure Basics
+* Structure Members
 * Array of Structures
 * Nested Structures
 * Union Basics
@@ -379,7 +384,8 @@ C-Programming-Basics/
 * File Writing
 * File Reading
 * File Append
-* File Handling using standard C functions
+* File Handling using `FILE *`
+* File Modes
 
 ### Programs
 
@@ -400,7 +406,8 @@ C-Programming-Basics/
 * Clear a Bit
 * Toggle a Bit
 * Check a Bit
-* Bitwise Operations Practice
+* Bitwise Operations
+* Bit Manipulation Practice
 
 ### Programs
 
@@ -416,23 +423,33 @@ C-Programming-Basics/
 
 # 📖 13 - Practice Programs
 
-This section contains practical C programming problems to strengthen logical thinking and problem-solving skills.
+This section contains practical C programs to improve **logical thinking, problem-solving, and programming skills**.
 
-### Planned Programs
+### Practice Programs
+
+* Prime Number
+* Palindrome
+* Fibonacci Series
+* Factorial
+* Armstrong Number
+* Reverse Number
+* Calculator
+
+### Programs
 
 | No. | Program            | Status |
 | --- | ------------------ | ------ |
-| 1   | `prime_number.c`   | ⬜      |
-| 2   | `palindrome.c`     | ⬜      |
-| 3   | `fibonacci.c`      | ⬜      |
-| 4   | `factorial.c`      | ⬜      |
-| 5   | `armstrong.c`      | ⬜      |
-| 6   | `reverse_number.c` | ⬜      |
-| 7   | `calculator.c`     | ⬜      |
+| 1   | `prime_number.c`   | ✅      |
+| 2   | `palindrome.c`     | ✅      |
+| 3   | `fibonacci.c`      | ✅      |
+| 4   | `factorial.c`      | ✅      |
+| 5   | `armstrong.c`      | ✅      |
+| 6   | `reverse_number.c` | ✅      |
+| 7   | `calculator.c`     | ✅      |
 
 ---
 
-# 🛠️ Tools Used
+## 🛠️ Tools Used
 
 * **Language:** C
 * **Compiler:** GCC
@@ -442,7 +459,7 @@ This section contains practical C programming problems to strengthen logical thi
 
 ---
 
-# 💻 Compile and Run
+## 💻 Compile and Run
 
 Compile a C program using GCC:
 
@@ -458,7 +475,7 @@ Run on Windows:
 
 ---
 
-# 🚀 Learning Roadmap
+## 🚀 Learning Roadmap
 
 ```text
 01. C Basics                    ✅
@@ -471,63 +488,77 @@ Run on Windows:
         ↓
 05. Functions                  ✅
         ↓
-06. Arrays                     ✅
+06. Arrays                    ✅
         ↓
-07. Strings                    ✅
+07. Strings                   ✅
         ↓
-08. Pointers                   ✅
+08. Pointers                  ✅
         ↓
-09. Structures & Unions        ✅
+09. Structures & Unions       ✅
         ↓
 10. Dynamic Memory             ✅
         ↓
 11. File Handling              ✅
         ↓
-12. Bit Manipulation           ✅
+12. Bit Manipulation            ✅
         ↓
-13. Practice Programs          ⬜
+13. Practice Programs           ✅
         ↓
-Embedded C
+     C Programming
         ↓
-Microcontrollers
+     Embedded C
+        ↓
+   Microcontrollers
         ↓
 Communication Protocols
         ↓
-Embedded Firmware
+ Embedded Firmware
 ```
 
 ---
 
-# 📊 Current Progress
+## 📊 Current Progress
 
 ```text
-Completed Topics : 12 / 13
-Progress         : 92%
+Completed Topics : 13 / 13
+Progress         : 100%
 ```
 
 ```text
 01. C Basics                  ████████████████████ ✅
 02. Operators                ████████████████████ ✅
 03. Conditional Statements   ████████████████████ ✅
-04. Loops                    ████████████████████ ✅
-05. Functions                ████████████████████ ✅
-06. Arrays                   ████████████████████ ✅
-07. Strings                  ████████████████████ ✅
-08. Pointers                 ████████████████████ ✅
-09. Structures & Unions      ████████████████████ ✅
-10. Dynamic Memory            ████████████████████ ✅
-11. File Handling             ████████████████████ ✅
-12. Bit Manipulation          ████████████████████ ✅
-13. Practice Programs         ░░░░░░░░░░░░░░░░░░░░ ⬜
+04. Loops                   ████████████████████ ✅
+05. Functions               ████████████████████ ✅
+06. Arrays                  ████████████████████ ✅
+07. Strings                 ████████████████████ ✅
+08. Pointers                ████████████████████ ✅
+09. Structures & Unions     ████████████████████ ✅
+10. Dynamic Memory           ████████████████████ ✅
+11. File Handling            ████████████████████ ✅
+12. Bit Manipulation         ████████████████████ ✅
+13. Practice Programs        ████████████████████ ✅
 ```
 
 ---
 
-# 🎯 Career Goal
+## 🎯 Career Goal
 
 My goal is to build strong **C and Embedded C programming skills** and become an **Embedded Firmware Engineer**.
 
-I am focusing on developing strong fundamentals in:
+> **Learn → Practice → Debug → Build → Improve 🚀**
+
+---
+
+## 👨‍💻 About Me
+
+**Mohamed Bavas**
+
+B.E. Electronics and Communication Engineering
+
+Aspiring **Embedded Firmware Engineer**
+
+### Current Focus
 
 ```text
 C Programming
@@ -543,25 +574,10 @@ Firmware Development
 
 ---
 
-# 👨‍💻 About Me
+## 🚀 Learning Philosophy
 
-**Mohamed Bavas**
+> **Consistency is the key to becoming a skilled Embedded Firmware Engineer.**
 
-B.E. Electronics and Communication Engineering
+I am continuously learning, practicing, debugging, and building projects to strengthen my programming and embedded systems knowledge.
 
-Aspiring **Embedded Firmware Engineer**
-
----
-
-# 🚀 Learning Philosophy
-
-> **Learn → Practice → Debug → Build → Improve 🚀**
-
-Consistency is the key to becoming a skilled Embedded Firmware Engineer.
-
-I am continuously learning, practicing, debugging, and building programs to strengthen my **C programming and embedded systems knowledge**.
-
-> **One program at a time. One concept at a time. One step closer to becoming an Embedded Firmware Engineer. 🚀**
-
-**Your current status:** **12/13 topics completed = 92%**.  
-Only **13 – Practice Programs** remains.
+**One step at a time. One program at a time. One day closer to becoming an Embedded Firmware Engineer. 🚀**
